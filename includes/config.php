@@ -48,7 +48,7 @@ Don't use // or /* as that will create comments.
 
 // [REQUIRED]
 // #################################
-//		Main Web Server Settings
+//	Main Web Server Settings
 // #################################
 /* 
 This setting cluster is important as it contains required options and
@@ -74,7 +74,7 @@ appear but be unclickable (option 1) or not appear at all (option 2). Specify "1
 
 // [OPTIONAL]
 // #################################
-//		Global Feature Toggle
+//	Global Feature Toggle
 // #################################
 /* 
 This setting cluster allows you to enable or disable certain key features.
@@ -118,7 +118,7 @@ All options are toggled with "enabled" or "disabled".
 
 // [RECOMMENDED]
 // #################################
-//		Meta Tag Settings
+//	Meta Tag Settings
 // #################################
 /* 
 This setting cluster allows you to set how search engines view your web
@@ -132,10 +132,10 @@ you want this feautre for admins or certain users only).
 {Meta Description} What appears after the title on search engines.
 {Meta Owner} Specify what your servers name is.
 */
-		$meta_enabled = "no";
-		$meta_charset = "UTF-8";
-		$meta_keywords = "Keyword1, Keyword2, Keyword3"; // Seperate with a comma.
-		$meta_description = "Star Wars Galaxies Emulation Server. Powered by SWGEmu's Core3.";
-		$meta_owner = "Core3Server Name Here!";
+	$meta_enabled = "no";
+	$meta_charset = "UTF-8";
+	$meta_keywords = "Keyword1, Keyword2, Keyword3"; // Seperate with a comma.
+	$meta_description = "Star Wars Galaxies Emulation Server. Powered by SWGEmu's Core3.";
+	$meta_owner = "Core3Server Name Here!";
 
 ?>
