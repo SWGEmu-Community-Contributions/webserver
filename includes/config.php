@@ -62,6 +62,7 @@ base settings for the web server.
 {Access IP} If you are accessing your web server through IP, specify the root path here.
 {Disable do} If you disable options below, do you want the icons on the dashboard to 
 appear but be unclickable (option 1) or not appear at all (option 2). Specify "1" or "2".
+{UI Style} Manages the global style used for the web server. The default is includes/styles/main.css.
 */
 
 	$webserver = "enabled";
@@ -71,6 +72,7 @@ appear but be unclickable (option 1) or not appear at all (option 2). Specify "1
 	$accessurl = ""; // If you are using IP, leave this blank.
 	$accessip = ""; // If you are using URL, leave this blank.
 	$disable_do = "1";
+	$uistyle = "includes/styles/main.css";
 
 // [OPTIONAL]
 // #################################
