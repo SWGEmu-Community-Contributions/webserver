@@ -65,14 +65,14 @@ appear but be unclickable (option 1) or not appear at all (option 2). Specify "1
 {UI Style} Manages the global style used for the web server. The default is includes/styles/main.css.
 */
 
-	$webserver = "enabled";
-	$webserver_public = "yes";
-	$pagetitle = "Powered by SWGEmu Core3";
-	$debugmode = "off";
-	$accessurl = ""; // If you are using IP, leave this blank.
-	$accessip = ""; // If you are using URL, leave this blank.
-	$disable_do = "1";
-	$uistyle = "includes/styles/main.css";
+	$config_webserver = "enabled";
+	$config_webserver_public = "yes";
+	$config_pagetitle = "Powered by SWGEmu Core3";
+	$config_debugmode = "off";
+	$config_accessurl = ""; // If you are using IP, leave this blank.
+	$config_accessip = ""; // If you are using URL, leave this blank.
+	$config_disable_do = "1";
+	$config_uistyle = "includes/styles/main.css";
 
 // [OPTIONAL]
 // #################################
@@ -101,16 +101,16 @@ to the most appropriate option for your server.
 All options are toggled with "enabled" or "disabled".
 */
 
-	$feature_charactermanager = "enabled";
-	$feature_bankmanager = "enabled";
-	$feature_vendormanager = "enabled";
-	$feature_csrplayermanager = "enabled";
-	$feature_bazaarmarketplace = "enabled";
-	$feature_qatool = "enabled";
-	$feature_mail = "enabled";
-	$feature_chatserver = "enabled";
-	$feature_inventory = "enabled";
-	$feature_structuremanager = "enabled";
+	$config_feature_charactermanager = "enabled";
+	$config_feature_bankmanager = "enabled";
+	$config_feature_vendormanager = "enabled";
+	$config_feature_csrplayermanager = "enabled";
+	$config_feature_bazaarmarketplace = "enabled";
+	$config_feature_qatool = "enabled";
+	$config_feature_mail = "enabled";
+	$config_feature_chatserver = "enabled";
+	$config_feature_inventory = "enabled";
+	$config_feature_structuremanager = "enabled";
 	
 // Note for the future: Each "feature group" will also need its own settings cluster.
 // That perhaps can be it's own file like features.php, instead of clogging the master
@@ -134,10 +134,10 @@ you want this feautre for admins or certain users only).
 {Meta Description} What appears after the title on search engines.
 {Meta Owner} Specify what your servers name is.
 */
-	$meta_enabled = "no";
-	$meta_charset = "UTF-8";
-	$meta_keywords = "Keyword1, Keyword2, Keyword3"; // Seperate with a comma.
-	$meta_description = "Star Wars Galaxies Emulation Server. Powered by SWGEmu's Core3.";
-	$meta_owner = "Core3Server Name Here!";
+	$config_meta_enabled = "no";
+	$config_meta_charset = "UTF-8";
+	$config_meta_keywords = "Keyword1, Keyword2, Keyword3"; // Seperate with a comma.
+	$config_meta_description = "Star Wars Galaxies Emulation Server. Powered by SWGEmu's Core3.";
+	$config_meta_owner = "Core3Server Name Here!";
 
 ?>
